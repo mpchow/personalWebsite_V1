@@ -1,0 +1,143 @@
+body {
+    font-weight: 300;
+}
+
+
+
+a {
+    width: 10%;
+    margin: 0;
+}
+
+a img {
+    width: 40%;
+}
+
+
+#splashPage {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(momentista-8Bt4XgLODpU-unsplash.jpg);
+    background-position: center;
+}
+
+
+
+ #splashPage h1 {
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    font-size: 7rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#intro h1 {
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -10%;
+    padding-right: 8%;
+    padding-left: 8%; 
+    font-size: 6rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#intro p {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#intro {
+    background: linear-gradient(white, white);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+#projectsTitle {
+    background-image: url(momentista-8Bt4XgLODpU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20vh;
+}
+
+#projectsTitle h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-size: 5rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+#projects {
+    background-image: linear-gradient(white, white);
+    background-size: cover;
+    height: 100vh;
+}
+
+#projects figure{
+    padding-top: 2rem;
+    background: linear-gradient(cyan,cyan);
+    width: 33%;
+    height: auto;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+h3{
+    text-align: center;
+}
+
+#headshot {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+
+footer .row, footer div {
+    display: flex;
+    align-items: center;
+    width: 101%;
+    /*background-image: linear-gradient(to bottom right,#EEEAFF, #EAFFFD); */
+    background-image: linear-gradient(#F4F4F4, #F4F4F4);
+    background-size: auto;
+  }
+  
+  footer h1 {
+      text-align: left;
+      color: black;
+      margin-left: 3rem;
+      font-size: 500%;
+      font-family: 'Nanum Myeongjo', serif;
+  }
+
+  footer p {
+      font-family: 'Nanum Gothic', sans-serif;
+      margin-left: 2rem;
+  }
+  
+  
+  footer nav {
+      display: flex;
+      justify-content: flex-end;
+  }
