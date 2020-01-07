@@ -3,13 +3,20 @@
     <head>
         <title>Matthew Chow</title>
         <meta charset="utf-8"/>
+        <script src="main.js"></script>
         <link rel="stylesheet" type="text/css" href="main.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
     </head>
 
     <body>
+
         <section id="splashPage" class="container.fluid">
+            <div id="navbar">
+                <a href="#intro" onclick="scrollToElement">About</a>
+                <a href="#projectsTitle">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
             <h1 id="name" class="col-sm-12 text-center">
                 Matthew Chow
             </h1>
@@ -17,7 +24,7 @@
 
         <section id="intro" class="container.fluid">
             <h1 class="col-sm-12 text-center">Hello! I'm a 2nd year Computer Engineering Student at the University of British Columbia.</h1>
-            <p class="col-sm-12 text-center">I believe in being passionate in your work, and I live out that philosophy by finding joy in whatever work I do. Some of my skills include Java, Verilog, HTML, CSS and I am currently working on learning Javascript and ReactJS.</p>
+            <p class="col-sm-12 text-center">I believe in being passionate in your work, and I live out that philosophy by finding joy in whatever work I do. Some of my skills include Java, Verilog, HTML, CSS and I am currently working on learning Javascript.</p>
         </section>
 
         <section id="projectsTitle" class="container.fluid">
@@ -29,16 +36,23 @@
         <section id="projects" class="container.fluid">
             <div>
                 <figure class="col-sm-4 text-center" >
-                    <p>UBC Solar Goes here</p>
-                    <p>Image goes here</p>
+                    <h4>UBC Solar Telemetry Interface</h4>
+                    <img class="col-sm-12" src="Interface.png">
+                    <p>Currently developing a telemetry interface for the UBC Solar design team. Meant to portray the live data from the car using HTML, CSS, and JavaScript.</p>
+                    <a class="col-sm-12" href="https://ubc-solar-telemetry-interface.herokuapp.com">Demo</a>
+                    <a href="https://github.com/UBC-Solar/Telemetry-Interface">View Code</a>
                 </figure>
                 <figure class="col-sm-4 text-center">
-                    <p>Local Hack Day Here</p>
-                    <p>image goes here</p>
+                    <h4>UBCNav</h4>
+                    <img class="col-sm-12" src="LHD.png">
+                    <p>A wayfinding application that creates routes accomodative of people with disabilities, and provides location based information relevent to the user. Built during UBC Local Hack Day 2019 using Java and Android Studio. My role was implementing the Google Maps API</p>
+                    <a href="https://github.com/mpchow/BuildDay2019">View Code</a>
                 </figure>
                 <figure class="col-sm-4 text-center">
-                    <p>Soccer Game Goes Here</p>
-                    <p>Image goes here</p>
+                    <h4>Golazo Game</h4>
+                    <img class="col-sm-12" src="SoccerGame.png">
+                    <p>A 2 person soccer game built using the java.swing library. Created to gain an introductory understanding of Java.</p>
+                    <a href="https://github.com/mpchow/GameSoccer">View Code</a>
                 </figure>
             </div>
 
@@ -57,14 +71,14 @@
                     <a href="https://github.com/mpchow">Github</a>
                 </div>
                 <div class="col-sm-1 text-center" id="contactinfo">
-                    <a href="www.linkedin.com/in/matthewpchow">LinkedIn</a>
+                    <a href="https://linkedin.com/in/matthewpchow">LinkedIn</a>
                 </div>
                 <div class="col-sm-1 text-center" id="contactinfo">
                     <a href="mailto: mattchow918@gmail.com">Email</a>
                 </div>
             </div>
             <div class="col-sm-12 text-left" id="bottominfo">
-                <p>&copy Matthew Chow 2019 | Designed and handcoded using HTML, CSS, and BootStrap.</p>
+                <h1>&copy Matthew Chow 2019 | Designed and handcoded using HTML, CSS, and BootStrap.</h1>
             </div>
         </footer>
 
