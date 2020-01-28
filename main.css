@@ -2,16 +2,57 @@ body {
     font-weight: 300;
 }
 
+
+@media only screen and (max-width:700px) {
+    #projects figure {
+        width: 100% !important;
+    }
+
+    #intro h1 {
+        top: 20% !important;
+        width: 100% !important;
+    }
+
+    #intro p {
+        top: 25% !important;
+        width: 100% !important;
+        height: 20% !important;
+        font-size: 3vmin !important;
+        padding-right: 15%;
+        padding-left: 15%; 
+    }
+
+    #navbar a {
+        font-size: 3vmin !important;
+        margin-right: 5% !important;
+        right: 5% !important;
+    }
+
+    #projects h4 {
+        font-size: 4vmin !important;
+    }
+
+    #projects p {
+        font-size: 3vmin !important;
+    }
+
+    footer #contactinfo a {
+        font-size: 2vmin !important;
+        margin-left: 5% !important;
+    }
+
+}
+
 #navbar {
-    padding: 2vh;
-    margin-left: 2vh;
+    padding: 2%;
+    margin-left: 2%;
 }
 
 #navbar a {
     color: black;
     font-family: 'Nanum Gothic', sans-serif;
-    margin-right: 5vh;
-    font-size: 2vh;
+    margin-right: 2%;
+    font-size: 2vmin;
 }
 
 #navbar a:hover{
@@ -36,33 +77,33 @@ body {
 
  #splashPage h1 {
     text-align: center;
-    height: 90vh;
+    top: 30%;
+    /* height: 90vh; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 0;
-    font-size: 7rem;
+    font-size: 10vmin;
     font-family: 'Nanum Myeongjo', serif;
 }
 
 #intro h1 {
     text-align: center;
-    height: 60vh;
+    top: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: -10%;
     padding-right: 8%;
     padding-left: 8%; 
-    font-size: 6rem;
+    font-size: 7vmin;
     font-family: 'Nanum Myeongjo', serif;
 }
 
 #intro p {
-    font-size: 2rem;
+    font-size: 3vmin;
+    top: 35%;
     text-align: center;
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-right: 8%;
+    padding-left: 8%; 
     font-family: 'Nanum Gothic', sans-serif;
 }
 
@@ -71,16 +112,16 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    width: 100%;
 }
 
 
 #projectsTitle {
+    top: 5%;
+    height: 20vh;
     background-image: url(momentista-8Bt4XgLODpU-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 20vh;
 }
 
 #projectsTitle h2 {
@@ -89,7 +130,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 15vh;
-    font-size: 5rem;
+    font-size: 6vmin;
     font-family: 'Nanum Myeongjo', serif;
 }
 
@@ -104,19 +145,21 @@ body {
 }
 
 #projects h4 {
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-bottom: 2%;
+    padding-top: 2%;
     font-family: 'Nanum Gothic', sans-serif;
+    font-size: 3vmin;
 }
 
 #projects img {
     width: cover;
-    height: 31vh;
-    padding-bottom: 2rem;
+    height: auto;
+    padding-bottom: 4%;
 }
 
 #projects p {
     font-family:'Nanum Gothic', sans-serif;
+    font-size: 2vmin;
 }
 
 #projects a {
@@ -133,11 +176,12 @@ footer #contact {
     background-image: linear-gradient(#F4F4F4, #F4F4F4);
     background-size: cover;
     width: cover;
-    height: 10rem;
+    height: 10%;
   }
 
 footer #contactinfo a {
     align-items: center;
+    font-size: 2vmin;
     font-family: 'Nanum Gothic', sans-serif;
     color: black;
 }
@@ -155,18 +199,18 @@ footer #bottominfo {
 footer h1 {
       text-align: left;
       color: black;
-      margin-left: 2rem;
+      left: 5%;
       font-family: 'Nanum Myeongjo', serif;
-      margin-top: 1rem;
+      font-size: 5vmin;
   }
 
 footer #bottominfo h1 {
       font-family: 'Nanum Gothic', sans-serif;
       text-align: left;
-      margin-left: 4rem;
-      margin-top: 1rem;
+      left: 5%;
+      margin-top: 1%;
       color: white;
-      font-size: 1rem;
+      font-size: 1vmin;
   }
   
   
