@@ -29,6 +29,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-image: url(momentista-8Bt4XgLODpU-unsplash.jpg);
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -78,6 +79,7 @@ body {
     top: 5%;
     height: 20vh;
     background-image: url(momentista-8Bt4XgLODpU-unsplash.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -179,7 +181,7 @@ footer nav {
   }
 
 
-  @media only screen and (max-width:850px) {
+  @media screen and (max-width: 600px) {
     #projects figure {
         width: 100% !important;
     }
@@ -199,7 +201,7 @@ footer nav {
     }
 
     #navbar a {
-        font-size: 3vmin !important;
+        font-size: 4vmin !important;
         margin-right: 5% !important;
         right: 5% !important;
     }
@@ -217,4 +219,9 @@ footer nav {
         margin-left: 5% !important;
     }
 
+    footer #bottominfo h1 {
+        font-size: 2vmin !important;
+        height: 1vmin !important;
+        padding-left: 5% !important;
+    }
 }
