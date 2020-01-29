@@ -179,11 +179,11 @@ footer nav {
 
   @media screen and (max-width: 600px) {}
     #splashPage {
-        background-image: url(mobileFriendlyBackground.jpg) no-repeat center center fixed !important;
+        background: url(mobileFriendlyBackground.jpg) no-repeat center center fixed !important;
     }
 
     #projectsTitle {
-        background-image: url(mobileFriendlyBackground.jpg) no-repeat center center fixed !important;
+        background: url(mobileFriendlyBackground.jpg) no-repeat center center fixed !important;
     }
 
     #projects figure {
