@@ -177,13 +177,16 @@ footer nav {
   }
 
 
-  @media screen and (max-width: 600px) {}
+  @media screen and (max-width: 600px) {
     #splashPage {
-        background: url(mobileFriendlyBackground.jpg) no-repeat center center fixed !important;
+        background-image: url(mobileFriendlyBackground.jpg) !important;
+        background-size: 100vh !important;
+
     }
 
     #projectsTitle {
-        background: url(mobileFriendlyBackground.jpg) no-repeat center center fixed !important;
+        background-image: url(mobileFriendlyBackground.jpg) !important;
+        background-size: 100vh !important;
     }
 
     #projects figure {
