@@ -2,47 +2,6 @@ body {
     font-weight: 300;
 }
 
-
-@media only screen and (max-width:850px) {
-    #projects figure {
-        width: 100% !important;
-    }
-
-    #intro h1 {
-        top: 20% !important;
-        width: 100% !important;
-    }
-
-    #intro p {
-        top: 25% !important;
-        width: 100% !important;
-        height: 20% !important;
-        font-size: 3vmin !important;
-        padding-right: 15%;
-        padding-left: 15%; 
-    }
-
-    #navbar a {
-        font-size: 3vmin !important;
-        margin-right: 5% !important;
-        right: 5% !important;
-    }
-
-    #projects h4 {
-        font-size: 4vmin !important;
-    }
-
-    #projects p {
-        font-size: 3vmin !important;
-    }
-
-    footer #contactinfo a {
-        font-size: 2vmin !important;
-        margin-left: 5% !important;
-    }
-
-}
-
 #navbar {
     padding: 2%;
     margin-left: 2%;
@@ -218,3 +177,44 @@ footer nav {
       display: flex;
       justify-content: flex-end;
   }
+
+
+  @media only screen and (max-width:850px) {
+    #projects figure {
+        width: 100% !important;
+    }
+
+    #intro h1 {
+        top: 20% !important;
+        width: 100% !important;
+    }
+
+    #intro p {
+        top: 25% !important;
+        width: 100% !important;
+        height: 20% !important;
+        font-size: 3vmin !important;
+        padding-right: 15%;
+        padding-left: 15%; 
+    }
+
+    #navbar a {
+        font-size: 3vmin !important;
+        margin-right: 5% !important;
+        right: 5% !important;
+    }
+
+    #projects h4 {
+        font-size: 4vmin !important;
+    }
+
+    #projects p {
+        font-size: 3vmin !important;
+    }
+
+    footer #contactinfo a {
+        font-size: 2vmin !important;
+        margin-left: 5% !important;
+    }
+
+}
