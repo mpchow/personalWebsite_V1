@@ -3,7 +3,7 @@ body {
 }
 
 
-@media only screen and (max-width:700px) {
+@media only screen and (max-width:850px) {
     #projects figure {
         width: 100% !important;
     }
