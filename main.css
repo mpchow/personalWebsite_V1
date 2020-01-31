@@ -12,12 +12,44 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
     margin-right: 2%;
     font-size: 2vmin;
-}
-
-#navbar a:hover{
-    color: black;
+    border: none;
+    cursor: pointer;
+    position: relative;
     text-decoration: none;
 }
+
+
+#navbar a::after, #navbar a::before {
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    border: 2px solid #87f5ff;
+    transition: all .8s ease;
+    text-decoration: none;
+}
+
+#navbar a::after {
+    bottom: 0;
+    right: 0;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    text-decoration: none;
+}
+
+#navbar a::before {
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    text-decoration: none;
+}
+
+#navbar a:hover::after, #navbar a:hover::before {
+    width:100%;
+    height:100%;
+    text-decoration: none;
+} 
 
 #navbar a:visited{
     text-decoration: none;
@@ -178,16 +210,6 @@ footer nav {
 
 
   @media screen and (max-width: 600px) {
-    #splashPage {
-        background-image: url(mobileFriendlyBackground.jpg) !important;
-        background-size: 100vh !important;
-
-    }
-
-    #projectsTitle {
-        background-image: url(mobileFriendlyBackground.jpg) !important;
-        background-size: 100vh !important;
-    }
 
     #projects figure {
         width: 100% !important;
