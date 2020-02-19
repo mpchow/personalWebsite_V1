@@ -20,8 +20,8 @@
 }
 
 .blob-1,.blob-2{
-	width:70px;
-	height:70px;
+	width:5rem;
+	height:5rem;
 	position:absolute;
 	background:black;
 	border-radius:50%;
@@ -247,6 +247,10 @@ footer nav {
         font-size: 3vmin !important;
         padding-right: 15%;
         padding-left: 15%; 
+    }
+
+    #navbar {
+        margin-left: 5% !important;
     }
 
     #navbar a {
