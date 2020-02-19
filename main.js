@@ -1,3 +1,17 @@
+window.addEventListener('load', ()=> {
+    let mainPage = document.getElementById("mainPage");
+    mainPage.style.opacity = 1;
+    window.setTimeout( disableLoader, 2000); 
+});
+
+function disableLoader() {
+    let loader = document.getElementById('loader').style;
+    loader.opacity = 1;
+
+     (function fadeOut(){(loader.opacity-=.1)<0?loader.display="none":setTimeout(fadeOut,40)})();
+
+}
+
 function scrollToAbout() {
     let element = document.getElementById("intro");
     element.scrollIntoView({behavior: "smooth"});
@@ -15,4 +29,3 @@ function scrollToContact() {
     element.scrollIntoView({behavior: "smooth"});
     return false;
 }
-

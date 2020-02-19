@@ -5,94 +5,99 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <script src="main.js"></script>
-        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
         <link rel="stylesheet" type="text/css" href="main.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div id="like_button_container"></div>
-
-        <section id="splashPage" class="container.fluid">
-            <div id="navbar">
-                <a href="#intro" onclick="return scrollToAbout();">About</a>
-                <a href="#projectsTitle" onclick="return scrollToProjects();">Projects</a>
-                <a href="#contact" onclick="return scrollToContact();">Contact</a>
+        <div id="loader">
+            <div class = "centered">
+                <div class = "blob-1"></div>
+                <div class = "blob-2"></div>
             </div>
-            <h1 id="name" class="col-xs-12 text-center">
-                Matthew Chow
-            </h1>
-        </section>
+        </div>  
 
-        <section id="intro" class="container.fluid">
-            <h1 class="col-xs-12 text-center">Hello! I'm a 2nd year Computer Engineering Student at the University of British Columbia.</h1>
-            <p class="col-xs-12 text-center">I believe in being passionate in your work, and I live out that philosophy by finding joy in whatever work I do. I want to create software solutions that improves quality of life without the addiction to technology that social media promotes. Some of my skills include Java, Verilog, Assembly, HTML, CSS and I am currently working on learning Javascript and ReactJS.</p>
-        </section>
-
-        <section id="projectsTitle" class="container.fluid">
-            <h2 class="col-xs-12 text-left">Here are some projects I have worked on</h2>
-        </section>
-
-
-
-        <section id="projects" class="container.fluid">
-            <div>
-                <figure class="col-xs-4 text-center" > 
-                    <h4>FOEX</h4>
-                    <img class="col-xs-12" src="FOEX.png">
-                    <p>An application that will take a photo of a produce item, and return an estimated expiry date. The app will log the user's scan history. Built during nwHacks2020, implementing the Microsoft Azure Computer Vision API with Java in Android Studtio. I assisted in the backend of the app, connecting the front end with the back end, and took on project manager like role.</p>
-                    <a href="https://github.com/mpchow/nwHacks2020">View Code</a>
-                </figure>
-
-                <figure class="col-xs-4 text-center" >
-                    <h4>UBC Solar Telemetry Interface</h4>
-                    <img class="col-xs-12" src="SolarInterface.png">
-                    <p>Currently developing a telemetry interface for the UBC Solar design team. Meant to portray the live data from the car using HTML, CSS, and JavaScript.</p>
-                    <a class="col-xs-12" href="http://ec2-54-174-125-98.compute-1.amazonaws.com/">Demo</a>
-                    <a href="https://github.com/UBC-Solar/Telemetry-Interface">View Code</a>
-                </figure>
-                <figure class="col-xs-4 text-center">
-                    <h4>UBCNav</h4>
-                    <img class="col-xs-12" src="LHD.png">
-                    <p>A wayfinding application that creates routes accomodative of people with disabilities, and provides location based information relevent to the user. Built during UBC Local Hack Day 2019 using Java and Android Studio. My role was implementing the Google Maps API.</p>
-                    <a href="https://github.com/mpchow/BuildDay2019">View Code</a>
-                </figure>
-                <figure class="col-xs-4 text-center">
-                    <h4>Golazo Game</h4>
-                    <img class="col-xs-12" src="SoccerGame.png">
-                    <p>A 2 person soccer game built using the java.swing library. Created to gain an introductory understanding of Java.</p>
-                    <a href="https://github.com/mpchow/GameSoccer">View Code</a>
-                </figure>
-            </div>
-
-        </section>
-
-                
-        <footer class="container.fluid">
-            <div class="col-xs-12 text-left" id="contact">
-                <div class="col-xs-8 text-left" id="contact">
-                    <h1>Contact<h1\>
+        <div id="mainPage">
+            <section id="splashPage" class="container.fluid">
+                <div id="navbar">
+                    <a href="#intro" onclick="return scrollToAbout();">About</a>
+                    <a href="#projectsTitle" onclick="return scrollToProjects();">Projects</a>
+                    <a href="#contact" onclick="return scrollToContact();">Contact</a>
                 </div>
-                <div class="col-xs-1 text-center" id="contactinfo">
-                    <!-- <a href="https://drive.google.com/file/d/1fvlpK92R5M3i4yGFZ3wlyvoMhQEZEGFv/view?usp=sharing">Resume</a> -->
-                    <a href="./resume.html" id="contactinfo">Resume</a>
+                <h1 id="name" class="col-xs-12 text-center">
+                    Matthew Chow
+                </h1>
+            </section>
+
+            <section id="intro" class="container.fluid">
+                <h1 class="col-xs-12 text-center">Hello! I'm a 2nd year Computer Engineering Student at the University of British Columbia.</h1>
+                <p class="col-xs-12 text-center">I believe in being passionate in your work, and I live out that philosophy by finding joy in whatever work I do. I want to create software solutions that improves quality of life without the addiction to technology that social media promotes. Some of my skills include Java, Verilog, Assembly, HTML, CSS and I am currently working on learning Javascript and ReactJS.</p>
+            </section>
+
+            <section id="projectsTitle" class="container.fluid">
+                <h2 class="col-xs-12 text-left">Here are some projects I have worked on</h2>
+            </section>
+
+
+
+            <section id="projects" class="container.fluid">
+                <div>
+                    <figure class="col-xs-4 text-center" > 
+                        <h4>FOEX</h4>
+                        <img class="col-xs-12" src="FOEX.png">
+                        <p>An application that will take a photo of a produce item, and return an estimated expiry date. The app will log the user's scan history. Built during nwHacks2020, implementing the Microsoft Azure Computer Vision API with Java in Android Studtio. I assisted in the backend of the app, connecting the front end with the back end, and took on project manager like role.</p>
+                        <a href="https://github.com/mpchow/nwHacks2020">View Code</a>
+                    </figure>
+
+                    <figure class="col-xs-4 text-center" >
+                        <h4>UBC Solar Telemetry Interface</h4>
+                        <img class="col-xs-12" src="SolarInterface.png">
+                        <p>Currently developing a telemetry interface for the UBC Solar design team. Meant to portray the live data from the car using HTML, CSS, and JavaScript.</p>
+                        <a class="col-xs-12" href="http://ec2-54-174-125-98.compute-1.amazonaws.com/">Demo</a>
+                        <a href="https://github.com/UBC-Solar/Telemetry-Interface">View Code</a>
+                    </figure>
+                    <figure class="col-xs-4 text-center">
+                        <h4>UBCNav</h4>
+                        <img class="col-xs-12" src="LHD.png">
+                        <p>A wayfinding application that creates routes accomodative of people with disabilities, and provides location based information relevent to the user. Built during UBC Local Hack Day 2019 using Java and Android Studio. My role was implementing the Google Maps API.</p>
+                        <a href="https://github.com/mpchow/BuildDay2019">View Code</a>
+                    </figure>
+                    <figure class="col-xs-4 text-center">
+                        <h4>Golazo Game</h4>
+                        <img class="col-xs-12" src="SoccerGame.png">
+                        <p>A 2 person soccer game built using the java.swing library. Created to gain an introductory understanding of Java.</p>
+                        <a href="https://github.com/mpchow/GameSoccer">View Code</a>
+                    </figure>
                 </div>
-                <div class="col-xs-1 text-center" id="contactinfo">
-                    <a href="https://github.com/mpchow">Github</a>
+
+            </section>
+
+                    
+            <footer class="container.fluid">
+                <div class="col-xs-12 text-left" id="contact">
+                    <div class="col-xs-8 text-left" id="contact">
+                        <h1>Contact<h1\>
+                    </div>
+                    <div class="col-xs-1 text-center" id="contactinfo">
+                        <!-- <a href="https://drive.google.com/file/d/1fvlpK92R5M3i4yGFZ3wlyvoMhQEZEGFv/view?usp=sharing">Resume</a> -->
+                        <a href="./resume.html" id="contactinfo">Resume</a>
+                    </div>
+                    <div class="col-xs-1 text-center" id="contactinfo">
+                        <a href="https://github.com/mpchow">Github</a>
+                    </div>
+                    <div class="col-xs-1 text-center" id="contactinfo">
+                        <a href="https://linkedin.com/in/matthewpchow">LinkedIn</a>
+                    </div>
+                    <div class="col-xs-1 text-center" id="contactinfo">
+                        <a href="mailto: mattchow918@gmail.com">Email</a>
+                    </div>
                 </div>
-                <div class="col-xs-1 text-center" id="contactinfo">
-                    <a href="https://linkedin.com/in/matthewpchow">LinkedIn</a>
+                <div class="col-xs-12 text-left" id="bottominfo">
+                    <h1>&copy Matthew Chow 2019 | Designed and handcoded using HTML, CSS, and BootStrap.</h1>
                 </div>
-                <div class="col-xs-1 text-center" id="contactinfo">
-                    <a href="mailto: mattchow918@gmail.com">Email</a>
-                </div>
-            </div>
-            <div class="col-xs-12 text-left" id="bottominfo">
-                <h1>&copy Matthew Chow 2019 | Designed and handcoded using HTML, CSS, and BootStrap.</h1>
-            </div>
-        </footer>
+            </footer>
+        </div>
 
 
     </body>
