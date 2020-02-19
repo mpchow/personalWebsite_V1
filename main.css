@@ -230,6 +230,10 @@ footer nav {
 
 
   @media screen and (max-width: 600px) {
+    .blob-1,.blob-2{
+        width:4rem;
+        height:4rem;
+    }
 
     #projects figure {
         width: 100% !important;
