@@ -16,8 +16,8 @@ window.addEventListener('load', ()=> {
     window.setTimeout(fadeAboutIn, 3000);
     window.setTimeout(fadeProjectIn, 3300);
     window.setTimeout(fadeContactIn, 3700);
-});
 
+});
 
 function fadeContactIn () {
     let contactNav = document.getElementById('contactNav').style;
