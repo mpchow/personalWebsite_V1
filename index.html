@@ -7,6 +7,7 @@
         <script src="main.js"></script>
         <link rel="stylesheet" type="text/css" href="main.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i|Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo:400,700&display=swap" rel="stylesheet">
     </head>
 
@@ -21,9 +22,9 @@
         <div id="mainPage">
             <section id="splashPage" class="container.fluid">
                 <div id="navbar">
-                    <a href="#intro" onclick="return scrollToAbout();">About</a>
-                    <a href="#projectsTitle" onclick="return scrollToProjects();">Projects</a>
-                    <a href="#contact" onclick="return scrollToContact();">Contact</a>
+                    <a id="aboutNav" href="#intro" onclick="return scrollToAbout();">About</a>
+                    <a id="projectsNav" href="#projectsTitle" onclick="return scrollToProjects();">Projects</a>
+                    <a id="contactNav" href="#contact" onclick="return scrollToContact();">Contact</a>
                 </div>
                 <h1 id="name" class="col-xs-12 text-center">
                     Matthew Chow
