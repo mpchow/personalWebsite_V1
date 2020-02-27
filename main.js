@@ -13,9 +13,9 @@ window.addEventListener('load', ()=> {
 
     window.setTimeout( disableLoader, 2000); 
     window.setTimeout(fadeInTitle, 2500);
-    window.setTimeout(fadeAboutIn, 2800);
-    window.setTimeout(fadeProjectIn, 3100);
-    window.setTimeout(fadeContactIn, 3400);
+    window.setTimeout(fadeAboutIn, 3000);
+    window.setTimeout(fadeProjectIn, 3300);
+    window.setTimeout(fadeContactIn, 3700);
 });
 
 
