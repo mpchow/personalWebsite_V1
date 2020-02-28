@@ -3,39 +3,38 @@ window.addEventListener('load', ()=> {
     let mainTitle = document.getElementById('name').style;
     let navAbout = document.getElementById('aboutNav').style;
     let navProjects = document.getElementById('projectsNav').style;
-    let navContact  = document.getElementById('contactNav').style;
+    // let navContact  = document.getElementById('contactNav').style;
 
     mainPage.opacity = 1;
     mainTitle.opacity = 0;
     navAbout.opacity = 0;
     navProjects.opacity = 0;
-    navContact.opacity = 0;
+    // navContact.opacity = 0;
 
     window.setTimeout( disableLoader, 2000); 
     window.setTimeout(fadeInTitle, 2500);
     window.setTimeout(fadeAboutIn, 3000);
     window.setTimeout(fadeProjectIn, 3300);
-    window.setTimeout(fadeContactIn, 3700);
-
+    // window.setTimeout(fadeContactIn, 3700);
 });
 
-function fadeContactIn () {
-    let contactNav = document.getElementById('contactNav').style;
-    contactNav.opacity = 0;
-    let opacity = 0;
-    fadeContact();
+// function fadeContactIn () {
+//     let contactNav = document.getElementById('contactNav').style;
+//     contactNav.opacity = 0;
+//     let opacity = 0;
+//     fadeContact();
 
-    function fadeContact() {
-        contactNav.opacity = opacity;
-        opacity += 0.1;
-        if(contactNav.opacity > 1) {
-            contactNav.opacity = 1;
-        }
-        else {
-            setTimeout(fadeContact, 40);
-        }
-    }
-}
+//     function fadeContact() {
+//         contactNav.opacity = opacity;
+//         opacity += 0.1;
+//         if(contactNav.opacity > 1) {
+//             contactNav.opacity = 1;
+//         }
+//         else {
+//             setTimeout(fadeContact, 40);
+//         }
+//     }
+// }
 
 function fadeProjectIn () {
     let projectNav = document.getElementById('projectsNav').style;
