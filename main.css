@@ -295,8 +295,41 @@ footer nav {
         height:4rem;
     }
 
+    #iconTable {
+        margin-top: 15vh !important;
+    }
+
+    #iconTable img {
+        width: 100%;
+    }
+
+    #iconTable td {
+        padding-bottom: 15%;
+    }
+
+    .contactLinks table {
+        top: 80%;
+    }
+
+    .verticalLine {
+        display: none;
+    }
+
+    #projects h4 {
+        padding-top: 0vh !important;
+    }
+
     #projects figure {
         width: 100% !important;
+        height: 25vh !important;
+    }
+
+    #projects a {
+        font-size: 2vmin;
+    }
+
+    #intro {
+        height: 50vh !important;
     }
 
     #intro h1 {
@@ -311,6 +344,11 @@ footer nav {
         font-size: 3vmin !important;
         padding-right: 15%;
         padding-left: 15%; 
+    }
+
+    #tools {
+
+        height: 65vh !important;
     }
 
     #navbar {
@@ -328,7 +366,7 @@ footer nav {
     }
 
     #projects p {
-        font-size: 3vmin !important;
+        font-size: 2vmin !important;
     }
 
     footer #contactinfo a {
