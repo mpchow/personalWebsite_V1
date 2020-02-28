@@ -100,6 +100,22 @@ body {
     font-family: bitter;
  }
 
+ .contactLinks table {
+     top: 70%;
+     left: 2.5%;
+     align-self: left;
+     position: fixed;
+ }
+
+ .contactLinks td {
+    padding-bottom: 5%;
+ }
+
+ .contactLinks img {
+    width: 5%;
+    z-index: 100;
+ }
+
 #intro h1 {
     text-align: left;
     top: 25%;
@@ -139,6 +155,7 @@ body {
     padding-top: 10vh;
     margin-left: 7%;
     font-family: Open Sans;
+    font-size: 6vmin;
 }
 
 #iconTable {
@@ -153,6 +170,7 @@ body {
    align-self: center;
    align-content: center;
    align-items: center;
+   padding-bottom: 10%;
 }
 
 #iconTable img {
@@ -202,6 +220,8 @@ body {
 
 #projects img {
     padding-bottom: 4%;
+    z-index: -1;
+    position: relative;
 }
 
 #projects p {
@@ -240,45 +260,16 @@ body {
     margin-bottom: 5%;
 }
 
-footer #contact {
-    display: flex;
-    align-items: center;
-    /* background-image: linear-gradient(#F4F4F4, #F4F4F4); */
-    background-color: #b0bdd6;
-    width: cover;
-    height: 15vh;
-  }
-
-footer #contactinfo a {
-    align-items: center;
-    font-size: 2vmin;
-    font-family: 'Source Sans Pro';
-    color: black;
-}
-
-footer #contactinfo a:hover {
-    text-decoration: none;
-}
-
 footer #bottominfo {
     background-image: linear-gradient(#2C2C2C, #2C2C2C);
 }
-  
-footer h1 {
-      text-align: left;
-      color: black;
-      left: 5%;
-      font-family: 'Bitter';
-      font-size: 5vmin;
-  }
 
 footer #bottominfo h1 {
       font-family: 'Open Sans';
-      text-align: left;
-      left: 5%;
+      text-align: center;
       margin-top: 1%;
       color: white;
-      font-size: 1vmin;
+      font-size: 1.5vmin;
   }
   
   
