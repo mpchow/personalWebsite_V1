@@ -104,16 +104,20 @@ body {
      top: 70%;
      left: 2.5%;
      align-self: left;
-     position: fixed;
+     position: absolute;
  }
 
  .contactLinks td {
     padding-bottom: 5%;
  }
 
- .contactLinks img {
-    width: 5%;
+ .contactLinks a {
     z-index: 100;
+ }
+
+ .contactLinks img {
+     width: 5%;
+     z-index: 100;
  }
 
 .verticalLine {
@@ -121,7 +125,7 @@ body {
     left: 3.25%;
     width: 0.1%;
     height: 7%;
-    position: fixed;
+    position: absolute;
     z-index: 100;
     background-color: #2c2c2c;
 }
@@ -230,7 +234,7 @@ body {
 
 #projects img {
     padding-bottom: 4%;
-    z-index: -1;
+    z-index: -100;
     position: relative;
 }
 
@@ -307,9 +311,6 @@ footer nav {
         padding-bottom: 15%;
     }
 
-    .contactLinks table {
-        top: 80%;
-    }
 
     .verticalLine {
         display: none;
