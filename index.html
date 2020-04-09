@@ -34,28 +34,28 @@
                         <tr> 
                             <td>
                                 <a id="resumeLink" href="resume.html" target="_blank">
-                                    <img src="iconResume.png">
+                                    <img src="Images\iconResume.png">
                                 </a>
                             </td>
                         </tr>
                         <tr> 
                             <td>
                                 <a id="emailLink" href="mailto:mattchow918@gmail.com" target="_blank">
-                                    <img src="iconEmail.png">
+                                    <img src="Images\iconEmail.png">
                                 </a>
                             </td>
                         </tr>
                         <tr> 
                             <td>
                                 <a id="githubLink" href="https://github.com/mpchow" target="_blank">
-                                    <img src="iconGithub.png">
+                                    <img src="Images\iconGithub.png">
                                 </a>
                             </td>
                         </tr>
                         <tr> 
                             <td>
                                 <a id="linkedInLink" href="https://linkedin.com/in/matthewpchow" target="_blank">
-                                    <img src="iconLinkedIn.png">
+                                    <img src="Images\iconLinkedIn.png">
                                 </a>
                             </td>
                         </tr>
@@ -76,16 +76,16 @@
                 
                 <table id="iconTable">
                     <tr>
-                        <td><img src="iconJava.png"></td>
-                        <td><img src="iconJavaScript.png"></td>
-                        <td><img src="iconHTML.png"></td>
-                        <td><img src="iconCSS.png"></td>
+                        <td><img src="Images\iconJava.png"></td>
+                        <td><img src="Images\iconJavaScript.png"></td>
+                        <td><img src="Images\iconHTML.png"></td>
+                        <td><img src="Images\iconCSS.png"></td>
                     </tr>
                     <tr>
-                        <td><img src="iconC.png"></td>
-                        <td><img src="iconC++.png"></td>
-                        <td><img src="iconPython.png"></td>
-                        <td><img src="iconGit.png"></td>
+                        <td><img src="Images\iconC.png"></td>
+                        <td><img src="Images\iconC++.png"></td>
+                        <td><img src="Images\iconPython.png"></td>
+                        <td><img src="Images\iconGit.png"></td>
                     </tr>
                 </table>
             </section>
@@ -99,7 +99,15 @@
             <section id="projects" class="container.fluid">
                 <div>
                     <figure id="projectRow" class="col-xs-4 text-center" > 
-                        <img class="col-xs-5" src="FOEX.png">
+                        <div id="projectsRight" class="col-xs-7">
+                            <h4>Autonomous Bot</h4>
+                            <p id="textRight">A project to control a robot to autonomously follow a line with PID control and a Raspberry Pi. The code controlling the robot was written in Python and an Android app written with Java was developed in parallel to determine whether the robot is in the autonomous mode or a remote controlled mode. The app and the Pi connect over TCP sockets with the pi acting as the server and the app as the client. On start, the Pi captures a picture with it's camera and sends it to the app and then awaits further commands.</p>
+                            <a href="https://github.com/mpchow/CPEN_291_P1" target="_blank">View Code</a>
+                        </div>
+                        <img class="col-xs-5" src="Images\Autonomous.png">
+                    </figure>
+                    <figure id="projectRow" class="col-xs-4 text-center" > 
+                        <img class="col-xs-5" src="Images\FOEX.png">
                         <div id="projectsLeft" class="col-xs-7">
                             <h4>FOEX</h4>
                             <p>An application that will take a photo of a produce item, and return an estimated expiry date. The app will log the user's scan history. Built during nwHacks2020, implementing the Microsoft Azure Computer Vision API with Java in Android Studio. I assisted in the backend of the app, connecting the front end with the back end, and took on project manager like role.</p>
@@ -114,11 +122,11 @@
                             <a href="http://ec2-54-174-125-98.compute-1.amazonaws.com/" target="_blank">Demo</a>
                             <a href="https://github.com/UBC-Solar/Telemetry-Interface" target="_blank">View Code</a>
                         </div>
-                        <img class="col-xs-5" src="Interface.png">
+                        <img class="col-xs-5" src="Images\Interface.png">
                     </figure>
 
                     <figure id="projectRow" class="col-xs-4 text-center">
-                        <img class="col-xs-5" src="UBCNav.png">
+                        <img class="col-xs-5" src="Images\UBCNav.png">
                         <div id="projectsLeft" class="col-xs-7">
                             <h4>UBCNav</h4>
                             <p>A wayfinding application that creates routes accomodative of people with disabilities, and provides location based information relevent to the user. Built during UBC Local Hack Day 2019 using Java and Android Studio. My role was implementing the Google Maps API.</p>
@@ -132,7 +140,7 @@
                             <p id="textRight">A 2 person soccer game built using the java.swing library. Created to gain an introductory understanding of Java.</p>
                             <a href="https://github.com/mpchow/GameSoccer" target="_blank">View Code</a>
                         </div>
-                        <img class="col-xs-5" src="SoccerGame.png">
+                        <img class="col-xs-5" src="Images\SoccerGame.png">
                     </figure>
                 </div>
 
